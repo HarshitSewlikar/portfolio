@@ -5,8 +5,8 @@ export const projects = [
     title: "AlgoViz — Algorithm Visualizer + AI Chat",
     oneLiner:
       "A React playground that animates sorting & graph algorithms step-by-step, with an AI tutor chatbot to explain what's happening.",
-    image: "/projects/algoviz.svg",
-    screenshot: "/projects/algorithm-visualizer.png",
+    image: "./projects/algoviz.svg",
+    screenshot: "./projects/algorithm-visualizer.png",
     technologies: ["React 18", "Vite", "Framer Motion", "Canvas API", "Tailwind", "Express"],
     problem:
       "Students learn algorithms from static textbook diagrams that don't show the actual step-by-step execution — and there's no quick way to ask 'why did it pick that pivot?' while watching it run.",
@@ -34,8 +34,8 @@ export const projects = [
     title: "Organic Vegetable Portal",
     oneLiner:
       "A Django MVT web app for browsing organic produce and capturing customer enquiries through an admin dashboard.",
-    image: "/projects/organic-vegetable-portal.svg",
-    screenshot: "/projects/organic-vegetable-portal.png",
+    image: "./projects/organic-vegetable-portal.svg",
+    screenshot: "./projects/organic-vegetable-portal.png",
     technologies: ["Django 3.2", "Python", "SQLite", "Bootstrap 5", "AOS", "Swiper"],
     problem:
       "Customers looking for organic vegetables had no dedicated online space — enquiries were scattered across calls and messages, and the team had no structured place to track them.",
@@ -63,8 +63,8 @@ export const projects = [
     title: "LeadChat — Talk to Your Spreadsheet",
     oneLiner:
       "A FastAPI app that turns plain-English questions into pandas queries against a 300-row real-estate leads dataset.",
-    image: "/projects/leadchat.svg",
-    screenshot: "/projects/leadchat.png",
+    image: "./projects/leadchat.svg",
+    screenshot: "./projects/leadchat.png",
     technologies: ["FastAPI", "Python", "Pandas", "OpenPyXL", "OpenRouter", "Vanilla JS"],
     problem:
       "Sales teams waste time writing filters and pivot tables every time they want to know something basic about their leads — 'how many in Pune have budget above 90L?' should be a sentence, not a SQL lesson.",
